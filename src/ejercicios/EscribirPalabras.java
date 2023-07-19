@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

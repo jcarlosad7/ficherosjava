@@ -1,4 +1,4 @@
-package Ejercicios;
+package ejercicios;
 import java.io.FileInputStream; //
 public class LeerFichero {
     public static void main(String[] args) {
