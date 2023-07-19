@@ -5,6 +5,7 @@ public class LeerFichero {
         try {
             FileInputStream fichero=new FileInputStream("D:\\UTP 2023\\Taller de Programacion\\fichero1.txt");
             System.out.println("# Datos del archivo #");
+            System.out.println("Total de bytes: "+fichero.available());
             int ch=fichero.read();
             while(ch!=-1){
                 System.out.println((char) ch);
